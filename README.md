@@ -72,19 +72,39 @@ You can add next to see that your app working
 ## Create Static Page
 
 * next command should generate two pages -home- and -about-
+* now automatically generates home.html.erb and about.html.erb,here appare default content in this files to see what we
+have you can visit localhost:3000/static_pages/home or localhost:3000/static_pages/about
 
         rails generate controller StaticPages home about
+   
+* This can be undone using
+
+        rails destroy  controller StaticPages home about
         
+
         
 ## Next spep we start generate Model-View-Controller (MVC):
 
-## Step 1 Build and migrate User model
+# User
+
+### Step 1 Build and migrate User model
 
         rails generate controller Users new
         
         rails generate model User name:string email:string
 
+        rails db:migrate
         
+ * This can be undone using
+
+        rails destroy model User
+        
+        
+### Step 2 User validations
+
+
+
+# Event
 
 ## Step 1 Build and migrate your Event model
 
@@ -94,7 +114,7 @@ You can add next to see that your app working
 
 * If something wrong you can undo this command rails db:migrate with a single command, called db:rollback    
 
-     rails db:rollback
+        rails db:rollback
 
      
 ## Step 2 Associations between the User and Event
