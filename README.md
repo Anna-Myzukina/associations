@@ -19,7 +19,7 @@
 ### Basic Events:
 1. create app
 
-    rails _5.1.6_ new associations
+         rails _5.1.6_ new associations
 
 2. change gemfile
 
