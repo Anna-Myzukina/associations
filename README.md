@@ -86,7 +86,7 @@ have you can visit localhost:3000/static_pages/home or localhost:3000/static_pag
         
 
         
-## Next spep we start generate Model-View-Controller (MVC):
+## Next step we start generate Model-View-Controller (MVC):
 
 # User
 
@@ -103,7 +103,6 @@ have you can visit localhost:3000/static_pages/home or localhost:3000/static_pag
         rails destroy model User
         
         
- 
         
 ### Step 2 User validations
 
@@ -122,6 +121,9 @@ app/models/user.rb
 * Here the regex VALID_EMAIL_REGEX is a constant, indicated in Ruby by a name starting with a capital letter.
 * To enforce uniqueness of email addresses (so that we can use them as usernames), we’ll be using the :uniqueness option to the validates method
 
+### Step 3 signup
+
+Use this part from RRT [Sign up](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/sign_up)
 
 # Event
 
