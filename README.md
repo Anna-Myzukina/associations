@@ -63,8 +63,9 @@ Run server to check if app works
 
 ## Step 1 Build and migrate User model
 
-  rails generate controller Users new
-  rails generate model User name:string email:string
+        rails generate controller Users new
+        
+        rails generate model User name:string email:string
 
 
 ## Step 1 Build and migrate your Event model
