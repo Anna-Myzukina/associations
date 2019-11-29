@@ -16,6 +16,7 @@
 * Font awesome CSS source
 * Google Analytics Integration
 
+![]()
 ### Basic Events:
 1. create app
 
@@ -49,6 +50,7 @@
         # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
         gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+After run next commands:
 
              bundle install
              
@@ -59,6 +61,14 @@ Run server to check if app works
 
     rails server
 
+
+## Create Static Page
+
+* next command should generate two pages -home- and -about-
+
+        rails generate controller StaticPages home about
+        
+        
 ## Next spep we start generate Model-View-Controller (MVC):
 
 ## Step 1 Build and migrate User model
@@ -67,6 +77,7 @@ Run server to check if app works
         
         rails generate model User name:string email:string
 
+        
 
 ## Step 1 Build and migrate your Event model
 
