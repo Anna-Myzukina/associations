@@ -61,6 +61,11 @@ Run server to check if app works
 
     rails server
 
+In browser type localhost:3000
+
+You can add next to see that your app working
+
+![](https://github.com/Anna-Myzukina/associations/blob/master/app/assets/images/short%20commands.png)
 
 ## Create Static Page
 
