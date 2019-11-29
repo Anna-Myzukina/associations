@@ -50,8 +50,10 @@
         gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-    bundle install
-    bundle update
+             bundle install
+             
+             
+             bundle update
 
 Run server to check if app works
 
