@@ -16,8 +16,10 @@
 * Font awesome CSS source
 * Google Analytics Integration
 
-![]()
-### Basic Events:
+![](https://github.com/Anna-Myzukina/associations/blob/master/app/assets/images/short%20commands.png)
+
+### Let's start build app:
+
 1. create app
 
          rails _5.1.6_ new associations
@@ -65,7 +67,7 @@ In browser type localhost:3000
 
 You can add next to see that your app working
 
-![](https://github.com/Anna-Myzukina/associations/blob/master/app/assets/images/short%20commands.png)
+![](https://github.com/Anna-Myzukina/associations/blob/master/app/assets/images/1.png)
 
 ## Create Static Page
 
