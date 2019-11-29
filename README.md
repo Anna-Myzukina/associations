@@ -29,6 +29,7 @@
         source 'https://rubygems.org'
 
         gem 'rails',        '5.1.6'
+        gem 'bootstrap-sass', '3.3.7'
         gem 'puma',         '3.9.1'
         gem 'sass-rails',   '5.0.6'
         gem 'uglifier',     '3.2.0'
@@ -63,11 +64,13 @@ Run server to check if app works
 
     rails server
 
-In browser type localhost:3000
+In browser type localhost:3000 to see that your app working
 
 You can add next to see that your app working
 
 ![](https://github.com/Anna-Myzukina/associations/blob/master/app/assets/images/1.png)
+
+![]()
 
 ## Create Static Page
 
@@ -100,8 +103,24 @@ have you can visit localhost:3000/static_pages/home or localhost:3000/static_pag
         rails destroy model User
         
         
+ 
+        
 ### Step 2 User validations
 
+app/models/user.rb
+
+
+        class User < ApplicationRecord
+          validates :name,  presence: true, length: { maximum: 50 }
+          VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+          validates :email, presence: true, length: { maximum: 255 },
+                            format: { with: VALID_EMAIL_REGEX },
+                            uniqueness: true
+        end
+
+
+* Here the regex VALID_EMAIL_REGEX is a constant, indicated in Ruby by a name starting with a capital letter.
+* To enforce uniqueness of email addresses (so that we can use them as usernames), we’ll be using the :uniqueness option to the validates method
 
 
 # Event
