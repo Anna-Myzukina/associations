@@ -125,6 +125,11 @@ app/models/user.rb
 
 Use this part from RRT [Sign up](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/sign_up)
 
+### Step 4 Log in/ Log out
+Now that new users can sign up for our site (Chapter 7), it’s time to give them the ability to log in and log out.
+
+Use thp part from RRT [Log in](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/basic_login)
+
 # Event
 
 ## Step 1 Build and migrate your Event model
