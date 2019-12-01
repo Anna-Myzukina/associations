@@ -121,11 +121,11 @@ app/models/user.rb
 * Here the regex VALID_EMAIL_REGEX is a constant, indicated in Ruby by a name starting with a capital letter.
 * To enforce uniqueness of email addresses (so that we can use them as usernames), we’ll be using the :uniqueness option to the validates method
 
-### Step 3 signup
+### Step 3 signup chapter 7 in RRT
 
 Use this part from RRT [Sign up](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/sign_up)
 
-### Step 4 Log in/ Log out
+### Step 4 Log in/ Log out chapter 8 RRT
 Now that new users can sign up for our site (Chapter 7), it’s time to give them the ability to log in and log out.
 
 Use thp part from RRT [Log in](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/basic_login)
