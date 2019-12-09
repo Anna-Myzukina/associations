@@ -1,6 +1,12 @@
 ## The Odin Project - Ruby on Rails
 ## Project: Associations - Private Events
 
+* DON'T PANIK if something wrong with your project you can reset chaqnges in branch using next commands
+### The reset to undo changes. The clean to remove any untracked files and directories.
+
+            $ git reset --hard HEAD
+            $ git clean -fd 
+
 * NOTE: This is in NO WAY a comprehensive walkthrough of the steps I used in the build, its just a rough set of notes for myself on the latest Odin Project app, Private Events. I've missed loads of bits out, most of it is html stuff, the main flow at the start is all in the correct order following the steps on the site so you could follow along, but at points things wouldn't work so you would need to dig into the code to find the missing things from these notes. Apart from that, it all works.
 
 * Our Objective:
