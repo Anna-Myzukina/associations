@@ -78,6 +78,14 @@ You can add next to see that your app working
 
 ![]()
 
+config/routes.rb
+
+
+            Rails.application.routes.draw do
+             root 'application#hello'
+            end
+
+
 ## Create Static Page
 
 * next command should generate two pages -home- and -about-
